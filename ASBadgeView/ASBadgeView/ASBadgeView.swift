@@ -244,7 +244,8 @@ public class ASBadgeView: UIView {
 private extension UIView {
     func boom() -> Void {
         self.isHidden = true
-        let bundle: Bundle = Bundle.init(identifier: "com.ashoka.ASBadgeView")!
+        var bundle: Bundle = Bundle.init(identifier: "com.ashoka.ASBadgeView")!
+        if bundle == nil { bundle = Bundle.main }
         var images: [UIImage] = Array()
         for i in 1...5 {
             let image: UIImage! = UIImage(named: "unreadBomb_\(i)", in: bundle, compatibleWith: nil)
