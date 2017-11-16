@@ -1,3 +1,3 @@
 # BadgeView
 A badge view for IOS
-![](./BadgeAnimation.gif)
+<img src="./BadgeAnimation.gif" width = "352" height = "552" alt="图片名称" align=center />
