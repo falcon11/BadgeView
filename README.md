@@ -1,3 +1,4 @@
 # BadgeView
 A badge view for IOS
-![](./BadgeAnimation.gif)
+
+![](https://raw.githubusercontent.com/falcon11/BadgeView/master/BadgeAnimation.gif)
